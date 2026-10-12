@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa795b51-ec5a-435c-b44d-0d81fdea0242">
+  <producedTypes>
+    <objectType typeId="f24217b6-6e33-450d-8b08-9f51b69bd7c4" valueTypeId="56f6861f-4d52-4165-8958-2e0cbed4f99c"/>
+    <managerType typeId="b5c0a1b5-3ef7-4b4e-9c01-723648045305" valueTypeId="27034bf1-aebf-427f-9cb1-cdca3768663e"/>
+  </producedTypes>
+  <name>Аренда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Аренда.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6267e4fe-d72e-4653-a1e4-06c4e605420a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
