@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30a76f5b-6e27-4cb5-9d17-6317601db2d6">
+  <producedTypes>
+    <refType typeId="2b71c465-55b3-4794-9564-a75c9ce057b3" valueTypeId="b7c1657f-651b-4c51-bba9-3b18bf106663"/>
+    <listType typeId="930d8e78-3497-483a-9b72-6459eabd96f8" valueTypeId="8addbdee-d1a4-4f66-ace9-3b2037efece1"/>
+    <managerType typeId="bb3e2037-c364-4629-a663-fa0340dfef30" valueTypeId="a6e5d234-deeb-4307-ab86-9071f701e919"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b2458a92-4f7c-48a7-8e2d-a0c28107e5d6">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ba5a0f6-5935-49b0-8860-f4e6114d5d75">
+    <name>Директор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bdd1945d-c3c1-4a06-970a-c0eb40a39fbd">
+    <name>МенеджерПоПродажам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по продажам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="219c55cb-bd29-4192-83ea-61c7b341cddc">
+    <name>МенеджерПоЗакупкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер по закупкам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
