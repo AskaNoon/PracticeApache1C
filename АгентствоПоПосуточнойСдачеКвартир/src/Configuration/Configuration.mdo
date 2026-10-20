@@ -44,6 +44,19 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Аренда</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <roles>Role.ДобавлениеИзменениеДокументовСдачиВАренду</roles>
+  <roles>Role.ДобавлениеИзменениеСправочниковАренды</roles>
+  <roles>Role.ЗапускВебКлиента</roles>
+  <roles>Role.ЗапускМобильногоКлиента</roles>
+  <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.СохранениеДанныхВывод</roles>
+  <roles>Role.ЧтениНСИ</roles>
+  <functionalOptions>FunctionalOption.ПоказыватьКлиентов</functionalOptions>
+  <constants>Constant.УчетПоКлиентам</constants>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
