@@ -47,6 +47,7 @@
   <subsystems>Subsystem.Аренда</subsystems>
   <subsystems>Subsystem.Настройки</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <roles>Role.ДобавлениеИзменениеДокументовСдачиВАренду</roles>
   <roles>Role.ДобавлениеИзменениеСправочниковАренды</roles>
   <roles>Role.ЗапускВебКлиента</roles>
@@ -55,14 +56,17 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.СохранениеДанныхВывод</roles>
   <roles>Role.ЧтениНСИ</roles>
+  <commonModules>CommonModule.Пользователи</commonModules>
   <functionalOptions>FunctionalOption.ПоказыватьКлиентов</functionalOptions>
   <constants>Constant.УчетПоКлиентам</constants>
   <catalogs>Catalog.Договоры</catalogs>
   <catalogs>Catalog.Квартиры</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.ПродлениеАренды</documents>
   <documents>Document.СдачаВАренду</documents>
   <enums>Enum.ВидДоговоров</enums>
+  <enums>Enum.Должности</enums>
   <reports>Report.Аренда</reports>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

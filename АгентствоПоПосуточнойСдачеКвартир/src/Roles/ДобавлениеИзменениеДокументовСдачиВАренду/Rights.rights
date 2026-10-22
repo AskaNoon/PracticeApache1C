@@ -156,6 +156,13 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.ТекущийПользователь</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.СдачаВАренду</name>
 		<right>
 			<name>Read</name>

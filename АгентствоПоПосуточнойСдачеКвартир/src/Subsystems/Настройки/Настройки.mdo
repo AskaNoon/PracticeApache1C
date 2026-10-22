@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Constant.УчетПоКлиентам</content>
+  <content>Catalog.Сотрудники</content>
 </mdclass:Subsystem>

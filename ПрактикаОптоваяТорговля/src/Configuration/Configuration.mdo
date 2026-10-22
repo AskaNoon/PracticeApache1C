@@ -72,6 +72,7 @@
   <documents>Document.Продажа</documents>
   <enums>Enum.ВидыДоговоров</enums>
   <enums>Enum.Должности</enums>
+  <enums>Enum.СтавкиНДС</enums>
   <reports>Report.Продажи</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
