@@ -136,19 +136,4 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="fbd5bf23-f562-4cf8-ab85-fa8195d476da">
-    <name>СтавкаНДС</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ставка НДС</value>
-    </synonym>
-    <type>
-      <types>EnumRef.СтавкиНДС</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
 </mdclass:Catalog>
