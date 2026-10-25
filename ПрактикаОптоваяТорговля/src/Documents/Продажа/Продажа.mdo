@@ -335,4 +335,23 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <templates uuid="1cbbcdd0-eb6a-46f5-bbc7-363a3ef86559">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="3fba2a9e-51e3-4572-85bb-909972734117">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распечатать документ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.Продажа</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
 </mdclass:Document>
