@@ -161,6 +161,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f8cbca0c-0f0d-4f41-8b7a-c808aee098d3">
+    <name>ЦенаЗаСутки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена за сутки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="e3304b36-ce97-4a0b-8b22-8485291a09b6">
     <name>ФормаСписка</name>
     <synonym>
@@ -179,4 +198,23 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <templates uuid="2613fb25-a4d9-49ea-8adc-af71db2280c1">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="4500162d-1ff2-4ba8-b69d-021a81918ed4">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распечатать документ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.СдачаВАренду</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Print</picture>
+    </picture>
+  </commands>
 </mdclass:Document>

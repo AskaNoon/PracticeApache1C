@@ -308,18 +308,18 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ЦенаЗаСутки</name>
-      <id>30</id>
+      <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ЦенаЗаСутки</segments>
+        <segments>Объект.ЦенаЗаСутки</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЦенаЗаСуткиРасширеннаяПодсказка</name>
-        <id>32</id>
+        <id>41</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -329,11 +329,10 @@
       </extendedTooltip>
       <contextMenu>
         <name>ЦенаЗаСуткиКонтекстноеМеню</name>
-        <id>31</id>
+        <id>40</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <readOnly>true</readOnly>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -497,27 +496,6 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
-  </attributes>
-  <attributes>
-    <name>ЦенаЗаСутки</name>
-    <title>
-      <key>ru</key>
-      <value>Цена за сутки</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>
