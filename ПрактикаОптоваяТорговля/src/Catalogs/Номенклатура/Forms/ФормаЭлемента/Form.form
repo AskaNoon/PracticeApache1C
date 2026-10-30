@@ -138,7 +138,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Цена</segments>
+        <segments>Объект.УдалитьЦена</segments>
       </dataPath>
       <extendedTooltip>
         <name>ЦенаРасширеннаяПодсказка</name>

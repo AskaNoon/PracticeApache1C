@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f71b873e-aa6f-4383-83c5-7abefe82d999">
+  <producedTypes>
+    <objectType typeId="45143e42-2835-4381-923c-8e823f379286" valueTypeId="4e7e2714-19fb-4134-ad55-9e8d71d0ce21"/>
+    <managerType typeId="5914f04f-e853-4cb4-bd2d-af712508210e" valueTypeId="48726f96-b373-437d-a892-7602a91c4e1c"/>
+  </producedTypes>
+  <name>ПереносЦенИзСправочника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенос цен из справочника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПереносЦенИзСправочника.Form.Форма</defaultForm>
+  <forms uuid="35b7aebe-87fd-494e-94ac-bdbaf2998ea0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+  </forms>
+</mdclass:DataProcessor>

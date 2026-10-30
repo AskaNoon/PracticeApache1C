@@ -118,10 +118,10 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="a2f822c0-6fbb-45e2-bc51-3e88ca010923">
-    <name>Цена</name>
+    <name>УдалитьЦена</name>
     <synonym>
       <key>ru</key>
-      <value>Цена</value>
+      <value>Удалить цена</value>
     </synonym>
     <type>
       <types>Number</types>
