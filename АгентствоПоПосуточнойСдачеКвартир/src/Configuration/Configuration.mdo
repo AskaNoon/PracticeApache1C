@@ -57,6 +57,7 @@
   <roles>Role.СохранениеДанныхВывод</roles>
   <roles>Role.ЧтениНСИ</roles>
   <commonModules>CommonModule.Пользователи</commonModules>
+  <commonModules>CommonModule.РаботаСЦенами</commonModules>
   <functionalOptions>FunctionalOption.ПоказыватьКлиентов</functionalOptions>
   <constants>Constant.УчетПоКлиентам</constants>
   <catalogs>Catalog.Договоры</catalogs>
@@ -68,5 +69,6 @@
   <enums>Enum.ВидДоговоров</enums>
   <enums>Enum.Должности</enums>
   <reports>Report.Аренда</reports>
+  <informationRegisters>InformationRegister.СтоимостьАренды</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>

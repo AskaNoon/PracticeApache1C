@@ -30,6 +30,7 @@
   <defaultObjectForm>Document.СдачаВАренду.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.СдачаВАренду.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <registerRecords>InformationRegister.СтоимостьАренды</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ed5316de-d161-4e3b-80d8-c9b8492078b2">
