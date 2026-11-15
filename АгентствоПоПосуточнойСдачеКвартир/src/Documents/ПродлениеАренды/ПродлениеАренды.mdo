@@ -30,6 +30,8 @@
   <defaultObjectForm>Document.ПродлениеАренды.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПродлениеАренды.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчётыСПокупателями</registerRecords>
+  <registerRecords>AccumulationRegister.ВзаиморасчётыССобственниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="36545aa2-16b5-47fe-a60f-fcf0f46e9110">
