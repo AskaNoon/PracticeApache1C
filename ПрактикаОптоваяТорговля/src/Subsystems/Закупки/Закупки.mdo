@@ -12,4 +12,6 @@
   <content>Catalog.Номенклатура</content>
   <content>Document.Покупка</content>
   <content>AccumulationRegister.ОстаткиТоваров</content>
+  <content>Document.ПоступлениеНаРасчётныйСчет</content>
+  <content>Document.СписаниеСРасчётногоСчета</content>
 </mdclass:Subsystem>

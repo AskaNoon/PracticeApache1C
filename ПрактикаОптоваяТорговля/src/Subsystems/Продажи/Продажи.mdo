@@ -14,4 +14,6 @@
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Номенклатура</content>
+  <content>Document.ПоступлениеНаРасчётныйСчет</content>
+  <content>Document.СписаниеСРасчётногоСчета</content>
 </mdclass:Subsystem>

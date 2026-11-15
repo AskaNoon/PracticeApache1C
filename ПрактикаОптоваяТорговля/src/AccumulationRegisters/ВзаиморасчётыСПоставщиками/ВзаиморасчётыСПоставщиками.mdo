@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42dc6eeb-c82d-41f7-b7d0-4136f87b3329">
+  <producedTypes>
+    <selectionType typeId="fc6a2038-0de4-4ee0-a2a8-9b068f9586af" valueTypeId="77749cd9-978a-409a-90c5-49e72aba2042"/>
+    <listType typeId="6aed7894-a593-4f28-b754-4cb867b54fbc" valueTypeId="daec13dd-9601-4bf5-9786-e32c687c180d"/>
+    <managerType typeId="0c79f6ec-0aca-4790-ae59-d4e273952b33" valueTypeId="ea39932c-0419-4078-ac06-5ee0149b34bf"/>
+    <recordSetType typeId="a6ea8187-53f9-4b34-a303-3f7b12022972" valueTypeId="54211ebc-2357-4e5b-863a-bb577158f43a"/>
+    <recordKeyType typeId="b740462c-06b4-4d92-b469-680adb239a26" valueTypeId="06b3705e-9c9a-45cf-a1ad-a22984dcd317"/>
+    <recordType typeId="b66c60fa-e918-41d0-a13d-3b8417b17ec3" valueTypeId="d2f48285-f3d2-4a82-9289-4363b8dbee74"/>
+  </producedTypes>
+  <name>ВзаиморасчётыСПоставщиками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчёты с поставщиками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <listPresentation>
+    <key>ru</key>
+    <value>ВзаиморасчетыСПоставщиками</value>
+  </listPresentation>
+  <resources uuid="040a07a5-1b36-49e7-b9c7-43437c68bc28">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="bf2d0810-f49d-4056-b96c-2d84ab9a92c7">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="86c5d7c1-ecf9-44ee-8dcb-efc3c790d0a9">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
