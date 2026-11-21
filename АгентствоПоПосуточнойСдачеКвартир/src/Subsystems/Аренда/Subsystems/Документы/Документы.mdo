@@ -11,5 +11,6 @@
   <content>Document.СдачаВАренду</content>
   <content>Document.ПоступлениеНаРасчётныйСчёт</content>
   <content>Document.СписаниеСРасчётногоСчёта</content>
+  <content>Document.КосвенныеРасходы</content>
   <parentSubsystem>Subsystem.Аренда</parentSubsystem>
 </mdclass:Subsystem>

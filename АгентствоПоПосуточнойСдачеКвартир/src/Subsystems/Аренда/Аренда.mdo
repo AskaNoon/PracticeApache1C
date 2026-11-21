@@ -9,6 +9,7 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Report.Аренда</content>
   <content>AccumulationRegister.Продажи</content>
+  <content>Report.ЧистаяПрибыльАренда</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

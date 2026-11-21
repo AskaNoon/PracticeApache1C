@@ -10,5 +10,6 @@
   <content>Catalog.Договоры</content>
   <content>Catalog.Квартиры</content>
   <content>Catalog.Клиенты</content>
+  <content>Catalog.СтатьиРасходов</content>
   <parentSubsystem>Subsystem.Аренда</parentSubsystem>
 </mdclass:Subsystem>
