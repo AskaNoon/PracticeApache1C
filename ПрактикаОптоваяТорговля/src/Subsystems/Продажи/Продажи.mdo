@@ -16,4 +16,5 @@
   <content>Catalog.Номенклатура</content>
   <content>Document.ПоступлениеНаРасчётныйСчет</content>
   <content>Document.СписаниеСРасчётногоСчета</content>
+  <content>Report.ЧистаяПрибыль</content>
 </mdclass:Subsystem>

@@ -14,4 +14,6 @@
   <content>AccumulationRegister.ОстаткиТоваров</content>
   <content>Document.ПоступлениеНаРасчётныйСчет</content>
   <content>Document.СписаниеСРасчётногоСчета</content>
+  <content>Catalog.СтатьиРасходов</content>
+  <content>Document.КосвенныеРасходы</content>
 </mdclass:Subsystem>

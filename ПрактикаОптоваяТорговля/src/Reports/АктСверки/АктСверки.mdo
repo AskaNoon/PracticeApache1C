@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b7a77b3-ba47-4e17-bdda-055fa29e8c46">
+  <producedTypes>
+    <objectType typeId="fd53125d-8872-4c94-80bd-6bdbf1f74f02" valueTypeId="30c3420a-9cf3-48eb-9c76-300048cd4ba0"/>
+    <managerType typeId="56820841-bb0b-4b16-8cee-3ec581d76643" valueTypeId="3c91b9c6-0d19-4dc4-8227-fc016abff995"/>
+  </producedTypes>
+  <name>АктСверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Акт сверки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АктСверки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="be851205-7af5-4002-9c76-ff6dd1ddaebe">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
