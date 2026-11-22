@@ -75,6 +75,8 @@
   <reports>Report.АктСверкиПоДоговору</reports>
   <reports>Report.Аренда</reports>
   <reports>Report.ЧистаяПрибыльАренда</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаДоговоровАрендыИзExcel</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКосвенныхРасходовИзJSON</dataProcessors>
   <informationRegisters>InformationRegister.СтоимостьАренды</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыСПокупателями</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыССобственниками</accumulationRegisters>
