@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Сотрудники</content>
   <content>Constant.УчетПоСкладам</content>
+  <content>DataProcessor.ЗагрузкаДоговоровИзExcel</content>
 </mdclass:Subsystem>

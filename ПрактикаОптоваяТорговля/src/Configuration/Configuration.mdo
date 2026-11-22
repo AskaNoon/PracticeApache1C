@@ -82,6 +82,8 @@
   <reports>Report.АктСверки</reports>
   <reports>Report.Продажи</reports>
   <reports>Report.ЧистаяПрибыль</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаДоговоровИзExcel</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКосвенныхРасходовИзXML</dataProcessors>
   <dataProcessors>DataProcessor.ПереносЦенИзСправочника</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыСПокупателями</accumulationRegisters>
