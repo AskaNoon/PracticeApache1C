@@ -56,6 +56,7 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.СохранениеДанныхВывод</roles>
   <roles>Role.ЧтениНСИ</roles>
+  <commonModules>CommonModule.ЗагрузкаКосвенныхРасходов</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.РаботаСЦенами</commonModules>
   <functionalOptions>FunctionalOption.ПоказыватьКлиентов</functionalOptions>
@@ -77,6 +78,7 @@
   <reports>Report.ЧистаяПрибыльАренда</reports>
   <dataProcessors>DataProcessor.ЗагрузкаДоговоровАрендыИзExcel</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаКосвенныхРасходовИзJSON</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКосвенныхРасходовИзJSONФон</dataProcessors>
   <informationRegisters>InformationRegister.СтоимостьАренды</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыСПокупателями</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыССобственниками</accumulationRegisters>

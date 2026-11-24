@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6dab819-a11a-4c7a-b463-0356c646ce03">
+  <name>ЗагрузкаКосвенныхРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка косвенных расходов</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

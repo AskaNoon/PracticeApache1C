@@ -113,6 +113,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Договоры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Договоры.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="95650c7f-e7db-47b2-8252-63f6970aaa5b">
     <name>Квартира</name>
     <synonym>
@@ -244,6 +245,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a470fc0c-83b8-4031-8b6b-91f4fc9bc053">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
