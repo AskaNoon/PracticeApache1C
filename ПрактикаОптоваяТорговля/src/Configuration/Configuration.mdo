@@ -59,6 +59,7 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.СохранениеДанныхВывод</roles>
   <roles>Role.ЧтениеНСИ</roles>
+  <commonModules>CommonModule.ЗагрузкаКосвенныхРасходов</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.РаботаСЦенами</commonModules>
   <functionalOptions>FunctionalOption.ПоказыватьСклады</functionalOptions>
@@ -84,6 +85,7 @@
   <reports>Report.ЧистаяПрибыль</reports>
   <dataProcessors>DataProcessor.ЗагрузкаДоговоровИзExcel</dataProcessors>
   <dataProcessors>DataProcessor.ЗагрузкаКосвенныхРасходовИзXML</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКосвенныхРасходовИзXMLФон</dataProcessors>
   <dataProcessors>DataProcessor.ПереносЦенИзСправочника</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ВзаиморасчётыСПокупателями</accumulationRegisters>

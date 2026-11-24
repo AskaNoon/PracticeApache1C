@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ddb4fd8-c573-4327-a9fa-1cba5097794d">
+  <producedTypes>
+    <objectType typeId="599fc45b-0b38-426a-8c8f-307d6d4200ca" valueTypeId="e9afff17-f938-4e5d-8933-6174c75326ac"/>
+    <managerType typeId="39f73f4a-481e-4dcd-8aeb-1e52aa39637e" valueTypeId="e6ca5b50-461a-4857-8722-9e22209df197"/>
+  </producedTypes>
+  <name>ЗагрузкаКосвенныхРасходовИзXMLФон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка косвенных расходов из XMLФон</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаКосвенныхРасходовИзXMLФон.Form.Форма</defaultForm>
+  <forms uuid="5cd70592-29f2-44ca-8afe-eb9cd95a1aad">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

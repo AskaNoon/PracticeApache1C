@@ -117,6 +117,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Номенклатура.Form.ФормаПодбора</defaultChoiceForm>
   <attributes uuid="a2f822c0-6fbb-45e2-bc51-3e88ca010923">
     <name>УдалитьЦена</name>
     <synonym>
@@ -157,6 +158,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="222e87b5-ce42-432c-956c-89d7731e0a59">
+    <name>ФормаПодбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
